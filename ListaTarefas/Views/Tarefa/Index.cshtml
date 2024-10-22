@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TarefaModel>
+
+<style>
+    .data-criacao-cell span {
+        color: black; 
+    }</style>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Data Criação</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model != null)
+        {
+            @foreach(var Tarefa in Model)
+            {
+                <tr>
+                <td>@Tarefa.Id</td>
+                <td>@Tarefa.Nome</td>
+                <td>@Tarefa.Descricao</td>
+                <td class="data-criacao-cell"><span class="badge badge-success">@Tarefa.DataCriacao</span></td>
+                <td>Ativo</td>
+
+                <td>
+                    <button class="btn btn-warning btn-sm">Editar</button>
+                    <button class="btn btn-danger btn-sm">Excluir</button>
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>
+
