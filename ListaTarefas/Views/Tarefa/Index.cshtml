@@ -1,5 +1,9 @@
 ﻿@model IEnumerable<TarefaModel>
-
+<div class="container ">
+    <div class="d-flex justify-content-between aling-items-center mb-3">
+        <h1>Tarefas</h1>
+        <a class="btn btn-success mb-1 btn-sm" asp-controller="Tarefa" asp-action="Criar">Nova tarefa</a>
+    </div>
 <style>
     .data-criacao-cell span {
         color: black; 
@@ -27,12 +31,12 @@
                 <td>Ativo</td>
 
                 <td>
-                    <button class="btn btn-warning btn-sm">Editar</button>
-                    <button class="btn btn-danger btn-sm">Excluir</button>
+                    <a asp-controller="Tarefa" asp-action="Editar" asp-route-id="@Tarefa.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-controller="Tarefa" asp-action="Excluir" asp-route-id="@Tarefa.Id" class="btn btn-danger btn-sm">Excluir</a>
                 </td>
             </tr>
             }
         }
     </tbody>
 </table>
-
+</div>

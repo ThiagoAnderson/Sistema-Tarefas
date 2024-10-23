@@ -126,3 +126,5 @@ C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\bin\
 C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\obj\Debug\net8.0\ListaTarefas.csproj.AssemblyReference.cache
 C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\obj\Debug\net8.0\ListaTar.48A10EC2.Up2Date
+C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\obj\Debug\net8.0\ListaTarefas.sourcelink.json
+C:\Users\zebeb\OneDrive\Desktop\Thiago - PROJECTS\ListaTarefas\ListaTarefas\bin\Debug\net8.0\web.config
