@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0OUOYbb/JM/imXH/tDhE9HGjaWbGBbLBxwvxuWB4GoY=",
+  "Hash": "ih8T/aqF/lBs6fKgDW5+9iCN7x2m2f0ntjuivKiRdT0=",
   "Source": "ListaTarefas",
   "BasePath": "_content/ListaTarefas",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ListaTarefas.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\css\\Litera.css",
+      "SourceId": "ListaTarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\",
+      "BasePath": "_content/ListaTarefas",
+      "RelativePath": "css/Litera.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Litera.css"
+    },
+    {
       "Identity": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\css\\site.css",
       "SourceId": "ListaTarefas",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\img\\4904575.png",
+      "SourceId": "ListaTarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\",
+      "BasePath": "_content/ListaTarefas",
+      "RelativePath": "img/4904575.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\4904575.png"
     },
     {
       "Identity": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\js\\site.js",

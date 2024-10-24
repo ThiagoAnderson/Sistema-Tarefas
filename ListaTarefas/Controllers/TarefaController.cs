@@ -39,7 +39,7 @@ namespace ListaTarefas.Controllers
             return View(tarefa);
         }
         [HttpGet]
-        public IActionResult Excluir(int id)
+        public IActionResult Excluir(int? id)
         {
             if (id == null || id == 0)
             {
@@ -61,6 +61,7 @@ namespace ListaTarefas.Controllers
             {
                 _bancoContext.Tarefa.Add(tarefa);
                 _bancoContext.SaveChanges();
+                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso";
 
                 return RedirectToAction("Index");
             }
@@ -74,6 +75,7 @@ namespace ListaTarefas.Controllers
             {
                 _bancoContext.Tarefa.Update(tarefa);
                 _bancoContext.SaveChanges();
+                TempData["MensagemEdicao"] = "Edição realizado com sucesso";
                 return RedirectToAction("Index");
             }
 
@@ -89,6 +91,7 @@ namespace ListaTarefas.Controllers
             }
             _bancoContext.Tarefa.Remove(tarefa);
             _bancoContext.SaveChanges();
+            TempData["MensagemExclusao"] = "Exclusão realizado com sucesso";
 
             return RedirectToAction("Index");
 

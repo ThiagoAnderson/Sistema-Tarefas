@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\ListaTarefas.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\css\\Litera.css",
+      "PackagePath": "staticwebassets\\css\\Litera.css"
+    },
+    {
       "Id": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\img\\4904575.png",
+      "PackagePath": "staticwebassets\\img\\4904575.png"
     },
     {
       "Id": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\js\\site.js",
