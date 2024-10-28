@@ -10,6 +10,6 @@ namespace ListaTarefas.Models
         [Required(ErrorMessage ="Digite a descricao da tarefa!")]
         public string Descricao { get; set; }
 
-        public DateTime DataCriacao { get; set; } = DateTime.Now;
+        public DateTime DataCriacao { get; set; }
     }
 }

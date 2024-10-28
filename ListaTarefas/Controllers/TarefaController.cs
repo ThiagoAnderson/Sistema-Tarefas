@@ -1,6 +1,9 @@
-﻿using ListaTarefas.Data;
+﻿using ClosedXML.Excel;
+using ListaTarefas.Data;
 using ListaTarefas.Models;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Data;
 
 namespace ListaTarefas.Controllers
 {
@@ -53,12 +56,54 @@ namespace ListaTarefas.Controllers
             }
             return View(tarefa);
         }
+        [HttpGet]
+
+        public IActionResult Exportar()
+        {
+            var dados = GetDados();
+
+            using (XLWorkbook workbook = new XLWorkbook())
+            {
+                workbook.AddWorksheet(dados , "Dados Tarefas");
+
+                using (MemoryStream ms = new MemoryStream()) 
+                {
+                    workbook.SaveAs(ms); 
+                    return File(ms.ToArray(),"application/vnd.openxmlformats-officedocument.spredsheetml.sheet","Tarefa.xls");
+                }
+            }
+        }
+
+        private DataTable GetDados()
+        {
+            DataTable datatable = new DataTable();
+
+            datatable.TableName = "Dados Tarefa";
+            datatable.Columns.Add("Titulo Tarefa", typeof(string));
+            datatable.Columns.Add("Descriçao Tarefa", typeof(string));
+            datatable.Columns.Add("Data criação Tarefa", typeof(DateTime));
+
+            var dados = _bancoContext.Tarefa.ToList();
+
+            if (dados.Count > 0)
+            {
+                dados.ForEach(tarefa =>
+                {
+                    datatable.Rows.Add(tarefa.Nome,tarefa.Descricao,tarefa.DataCriacao);
+                });
+            }
+
+            return datatable;
+
+        }
 
         [HttpPost]
         public IActionResult Criar(TarefaModel tarefa)
         {
             if (ModelState.IsValid)
             {
+                tarefa.DataCriacao = DateTime.Now;
+
                 _bancoContext.Tarefa.Add(tarefa);
                 _bancoContext.SaveChanges();
                 TempData["MensagemSucesso"] = "Cadastro realizado com sucesso";
@@ -73,7 +118,12 @@ namespace ListaTarefas.Controllers
         {
             if (ModelState.IsValid)
             {
-                _bancoContext.Tarefa.Update(tarefa);
+                var tarefaDB = _bancoContext.Tarefa.Find(tarefa.Id);
+
+                tarefaDB.Nome = tarefa.Nome;
+                tarefaDB.Descricao = tarefa.Descricao;
+
+                _bancoContext.Tarefa.Update(tarefaDB);
                 _bancoContext.SaveChanges();
                 TempData["MensagemEdicao"] = "Edição realizado com sucesso";
                 return RedirectToAction("Index");

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:models\\tarefamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\views\\tarefa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:views\\tarefa\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|c:\\users\\zebeb\\onedrive\\desktop\\thiago - projects\\listatarefas\\listatarefas\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{690C7B72-706F-4BB6-902B-CF842FEF15A3}|ListaTarefas.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-24T21:05:59.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T21:04:38.917Z",
+              "Title": "TarefaModel.cs",
+              "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Models\\TarefaModel.cs",
+              "RelativeDocumentMoniker": "Models\\TarefaModel.cs",
+              "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Models\\TarefaModel.cs",
+              "RelativeToolTip": "Models\\TarefaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:36:11.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "Controllers\\TarefaController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:24:57.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Tarefa\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tarefa\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Tarefa\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Tarefa\\Editar.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:35:29.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Tarefa\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Tarefa\\Index.cshtml",
               "ToolTip": "C:\\Users\\zebeb\\OneDrive\\Desktop\\Thiago - PROJECTS\\ListaTarefas\\ListaTarefas\\Views\\Tarefa\\Index.cshtml",
               "RelativeToolTip": "Views\\Tarefa\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwBoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T21:00:31.5Z",
+              "WhenOpened": "2024-10-28T17:22:12.761Z",
               "EditorCaption": ""
             }
           ]

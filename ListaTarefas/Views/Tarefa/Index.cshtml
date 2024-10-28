@@ -5,7 +5,9 @@
         
     </div>
     <div>
+        <a class="btn btn-info mb-1 btn-sm" asp-controller="Tarefa" asp-action="Exportar"><i class="bi bi-file-earmark-fill"></i> Exportar</a>
         <a class="btn btn-success mb-1 btn-sm" asp-controller="Tarefa" asp-action="Criar"><i class="bi bi-file-earmark-fill"></i> Nova tarefa</a>
+
     </div>
 
     @if(TempData["MensagemSucesso"] != null)
@@ -43,28 +45,28 @@
             <th>Descrição</th>
             <th>Data Criação</th>
             <th>Status</th>
+            <th></th>
         </tr>
     </thead>
-    <tbody>
-            <tr>
-        @if(Model != null)
-        {
-            @foreach(var Tarefa in Model)
+        <tbody>
+            @if (Model != null)
             {
-                <tr>
-                <td>@Tarefa.Id</td>
-                <td>@Tarefa.Nome</td>
-                <td>@Tarefa.Descricao</td>
-                <td class="data-criacao-cell"><span class="badge badge-success">@Tarefa.DataCriacao</span></td>
-                <td>Ativo</td>
-
-                <td>
+                foreach (var Tarefa in Model)
+                {
+                    <tr>
+                        <td>@Tarefa.Id</td>
+                        <td>@Tarefa.Nome</td>
+                        <td>@Tarefa.Descricao</td>
+                        <td class="data-criacao-cell"><span class="badge badge-success">@Tarefa.DataCriacao</span></td>
+                        <td>Ativo</td>
+                        <td>
                             <a asp-controller="Tarefa" asp-action="Editar" asp-route-id="@Tarefa.Id" class="btn btn-warning btn-sm"> <i class="bi bi-pencil-square"></i> Editar</a>
                             <a asp-controller="Tarefa" asp-action="Excluir" asp-route-id="@Tarefa.Id" class="btn btn-danger btn-sm"> <i class="bi bi-x-circle-fill"></i> Excluir</a>
-                </td>
-                </tr>
+                        </td>
+                    </tr>
+                }
             }
-        }
-    </tbody>
+        </tbody>
+
 </table>
 </div>
